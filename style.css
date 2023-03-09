@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(225,239,244);
+}
+.navi-header{
+    width: 100%;
+}
+.navigation-bar{
+    background-color: #ffecec;
+}
+.toll-free-number{
+    width: 100% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #5800FF;
+    color: white;
+    font-size:large;
+    z-index: 100;
+    text-align: justify;
+}
+
+#logo{
+    margin-left: 40px;
+    width: 80px;
+}
+.nav-item{
+    margin-inline: 10px;
+}
+.nav-link{
+    font-weight:700 !important;
+    font-size: large;
+    color:crimson !important;
+}
+.nav-link:hover{
+    color:crimson !important; 
+}
+.dropdown-menu{
+    background-color: #2252e3;
+}
+.dropdown-item{
+    color: white;
+}
+
+#login-btn{
+    margin-left: 0px;
+    margin-top: 30px;
+    position: absolute;
+    right: 50px;
+    background-color: rgb(201, 6, 6);
+    color:white;
+    font-weight: 400;
+    font-size: medium;
+    text-align: center;
+    width:70px;
+}
+
+#home-btn{
+    background-color:rgb(223, 3, 36);
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    border: none;
+}
+#course-btn:hover{
+    background-color:crimson;
+}
+.card{
+    width:auto; 
+    background-color: rgba(154, 205, 255, 0.881);
+    border-width: 2px;
+    border-color: darkblue;
+    color:black;
+    font-weight:500;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media only screen and (min-width:1000px){
+   .card{
+    margin-right: 50px;
+    margin-left: 50px;
+   }
+}
+@media only screen and (max-width:768px){
+    #second-card{
+        margin-top: 50px;
+    }
+    #third-card{
+        margin-top: 50px;
+    }
+}
+#fourth-card{
+    margin-top: 50px;
+}
+#fifth-card{
+    margin-top: 50px;
+}
+@media only screen and (max-width:768px){
+    #logo{
+        margin-left: 35;
+        width: 60px; ;
+    }
+}
+@media only screen and (max-width:768px){
+    #login-btn{
+        margin-top: 20px;
+    }
+    
+}
+
+.card:hover{
+    background-color: rgb(109, 204, 252);
+}
+.card-title{
+    color:rgb(116, 7, 97);
+    font-size:medium;
+}
+.card-title:hover{color: darkred;}
+.card-btn{
+    color: rgb(21, 0, 123);
+    font-weight: 400;
+    font-size:medium;
+    border-width: 1px;
+    border-color: rgb(5, 0, 137);
+}
+.card-btn:hover{
+    color: white;
+    background-color:rgb(229, 0, 0);
+}
+.footer{
+    background-color: blue;
+}
+.contact{
+    background-color:rgb(190, 226, 255) ;
+}
+.contact-form{
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(190, 226, 255) ;
+
+}
+.map{
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(190, 226, 255) ;
+
+}
+
+.institute-heading{
+    padding-top: 60px;
+}
+#institute-name{
+    color: darkblue;
+    font-size: 35px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+@media only screen and (max-width:672px){
+    #institute-name{
+        font-size: 25px;
+    }
+}
+
+#slider{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px grey;
+    position: relative;
+    overflow:hidden;
+}
+@media only screen and (max-width:1150px){
+    #slider{
+        height: 300px;
+    }
+    
+}
+@media only screen and (max-width:768px){
+    #slider{
+        height: 250px;
+    }
+    
+}
+@media only screen and (max-width:650px){
+    #slider{
+        height: 200px;
+    }
+    
+}
+@media only screen and (max-width:570px){
+    #slider{
+        height: 200px;
+    }
+    
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+.slide-nav{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.slide-nav button{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2px;
+    border-radius: 70%;
+}
+
+.team{
+    width: 40%;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+    color: darkblue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.core-team{
+    width: 90%;
+    margin: auto;
+}
+.individual-faculty{
+    width: 20%;
+    margin: auto;
+}
